@@ -36,7 +36,7 @@ function App() {
             <Coin
               name={coin.name}
               icon={coin.icon}
-              price={coin.price}
+              price={Math.floor(coin.price)}
               symbol={coin.symbol}
             />
           );
